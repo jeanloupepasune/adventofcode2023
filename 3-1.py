@@ -25,7 +25,7 @@ with open("3-1.input") as pb_input:
             numbers_data.append((int(n.group()), line_index, n.span()[0], n.span()[1] - 1))
         line_index += 1
     for n in numbers_data:
-        if any([ re.match(r'[^0-9\.]', x) for x in get_neighbours(*n, plan)]):
+        if any( re.match(r'[^0-9\.]', x) for x in get_neighbours(*n, plan) ):
             valid_numbers_sum += n[0]
             print("valid number: ", n[0], " neighbours: ", get_neighbours(*n, plan))
         else:

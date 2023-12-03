@@ -11,7 +11,7 @@ with open("3-1.input") as pb_input:
     for line in pb_input.readlines():
         numbers = finditer(r'[0-9]+', line)
         for n in numbers:
-             numbers_data.append(
+            numbers_data.append(
                      (int(n.group()), line_index, n.span()[0], n.span()[1])
                      )
         gearheads = finditer(r'\*', line)
