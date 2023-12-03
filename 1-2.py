@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 
 # naughty elves made me import re eventually
 from re import findall as findall

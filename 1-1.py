@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 
 with open("1-1.input") as pb_input:
     calibration_sum = 0
