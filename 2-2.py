@@ -2,7 +2,7 @@
 
 from re import findall as findall
 
-with open("2-2.input") as pb_input:
+with open("2-1.input") as pb_input:
     set_power_sum = 0
     for line in pb_input.readlines():
         line = line.strip()

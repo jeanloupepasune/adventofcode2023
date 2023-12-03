@@ -27,7 +27,7 @@ ugly_dict = {
         # lol
         }
 
-with open("1-2.input") as pb_input:
+with open("1-1.input") as pb_input:
     calibration_sum = 0
     for line in pb_input.readlines():
         # beware of the overlap! lookahead (?=...) needed to deal with oneight and co.
